@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("https://wallpapercave.com/wp/wp13442374.png");
+    background-size: cover; 
+    max-height: 500px;
+    background-repeat: no-repeat;
+    background-position: center center; 
+    font-family: 'Arial', sans-serif;
+    background-color: #121212;
+    color: #ffffff;
+}
+nav {
+    background-color: transparent;
+    padding: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.logo:hover {
+    color: #ff4081;
+    cursor: pointer;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    position: relative;
+}
+
+nav ul li a::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: #ff4081;
+    transition: width 0.3s, left 0.3s;
+}
+
+nav ul li a:hover::after {
+    width: 100%;
+    left: 0;
+}
+
+
+
+h1{
+    font-size: 3.5rem;
+    line-height: 1;
+}
+
+h2{
+    font-size: 2rem;
+}
+
+.content{
+    padding-top: 100px;
+}
+
+.game-list {
+    margin-top: 300px;
+}
+
+.game-list h2 {
+    margin-bottom: 40px;
+    font-size: 28px;
+    text-align: center;
+}
+
+.games {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.game {
+    margin: 15px;
+    text-align: center;
+    width: 200px;
+    transition: transform 0.3s;
+}
+
+.game:hover {
+    transform: scale(1.05);
+}
+
+.game img {
+    width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+footer {
+    background-color: #1c1c1c;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.platforms {
+    margin-top: 50px;
+}
+
+.platforms h2 {
+    margin-bottom: 25px;
+    font-size: 28px;
+    text-align: center;
+}
+.platforms {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.platform {
+    margin: 15px;
+    margin-top: 10px;
+    text-align: center;
+    width: 200px;
+    transition: transform 0.3s;
+}
+
+.platform:hover {
+    transform: scale(1.05);
+}
+
+.platform img {
+    width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
