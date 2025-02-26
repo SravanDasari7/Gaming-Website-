@@ -1,0 +1,165 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body { 
+    font-family: 'Arial', sans-serif;
+    background-color: #000000;
+    color: #ffffff;
+    width: 100%;
+    background-image: linear-gradient(0deg, rgb(0, 0, 0) 20%, rgba(0, 0, 0, 0.6)), url(https://d2d2z3qzqjizpf.cloudfront.net/eyJidWNrZXQiOiJnZ2FwcCIsImtleSI6Im1lZGlhL2dhbWVzL1c4QXc1Ni8xYjY2YTI1ZS05NmY5LTRkZWQtOWJlYS0yMDI1MzgyZTE1NTIuanBnIiwiZWRpdHMiOnsidG9Gb3JtYXQiOiJqcGciLCJqcGVnIjp7InF1YWxpdHkiOjgwLCJjaHJvbWFTdWJzYW1wbGluZyI6IjQ6NDo0In19fQ==);
+    
+    height: 450px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    background-position: center;
+
+}
+.container {
+    margin-left: 30px;
+    margin-top: 100px;
+}
+
+nav {
+    position: relative;
+    background-color: transparent;
+    padding: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.logo:hover {
+    color: #eee01c;
+    cursor: pointer;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    position: relative;
+}
+
+nav ul li a::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: #eee01c;
+    transition: width 0.3s, left 0.3s;
+}
+
+nav ul li a:hover::after {
+    width: 100%;
+    left: 0;
+}
+
+.title-section {
+    align-items: center;
+}
+
+.title-section h1 {
+    margin-right: 20px;
+}
+
+.rating {
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.overview {
+    margin: 30px 0;
+}
+
+.overview p{
+    margin-top: 20px;
+}
+.gallery{
+    display: flex;
+    gap: 10px;
+}
+
+.container img{
+    width: 400px;
+}
+.images {
+    gap: 10px;
+    max-width: 500px;
+    
+}
+
+.images img {
+    width: 200px;
+    height: auto;
+}
+
+.sidebar {
+    float: right;
+    width: 20%;
+    margin-right: 22px;
+    margin-top: -450px;
+    
+}
+
+.sidebar .cover {
+    width: 100%;
+}
+
+.details {
+    overflow: hidden;
+}
+
+.details h3 {
+    margin-top: 40px;
+}
+.details ul{
+    margin-top: 10px;
+}
+.details p{
+margin-top: 10px;
+}
+
+.links, .stores {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.links a, .stores span {
+    background-color: #1c1f24;
+    padding: 5px 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #fff;
+    margin-top: 10px;
+}
+
+
+
+footer {
+    background-color: #1c1c1c;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    margin-top: 20px;
+}
