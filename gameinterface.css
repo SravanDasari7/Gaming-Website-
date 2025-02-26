@@ -10,17 +10,17 @@ body {
     color: #ffffff;
     width: 100%;
     background-image: linear-gradient(0deg, rgb(0, 0, 0) 20%, rgba(0, 0, 0, 0.6)), url(https://d2d2z3qzqjizpf.cloudfront.net/eyJidWNrZXQiOiJnZ2FwcCIsImtleSI6Im1lZGlhL2dhbWVzL1c4QXc1Ni8xYjY2YTI1ZS05NmY5LTRkZWQtOWJlYS0yMDI1MzgyZTE1NTIuanBnIiwiZWRpdHMiOnsidG9Gb3JtYXQiOiJqcGciLCJqcGVnIjp7InF1YWxpdHkiOjgwLCJjaHJvbWFTdWJzYW1wbGluZyI6IjQ6NDo0In19fQ==);
-    
-    height: 450px;
+    height: 200px;
     background-size: cover;
     background-repeat: no-repeat;
-    position: relative;
-    background-position: center;
+    background-position: center center;
+    
 
 }
 .container {
     margin-left: 30px;
     margin-top: 100px;
+    
 }
 
 nav {
